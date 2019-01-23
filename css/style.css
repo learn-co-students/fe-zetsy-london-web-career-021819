@@ -5,16 +5,70 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #f3ebe9;
+  font-size: 100%;
+  font-family: "Times New Roman", serif;
+  cursor: crosshair;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 4em;
+  color: #98ada6;
+  border-bottom: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+h1:hover {
+  font-family: "Libre Baskerville", serif;
+  color: #6f807a;
+}
+
+h2 {
+  color: #6f807a;
+  font-size: 2em;
+}
+
+#necklace {
+  border: 5px solid #98ada6;
+}
+#about a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+
+#press a {
+  text-decoration: none;
+}
+
+#press img {
+  padding: 1px;
+  border: 5px solid #cccccc;
+}
+
+#press img:hover {
+  padding: 1px;
+  border: 5px solid #6f807a;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: right;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
