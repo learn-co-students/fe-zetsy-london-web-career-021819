@@ -7,14 +7,60 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
-.wrapper {
+.wrapper{
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
 /* Write all remaining styles here */
+.wrapper h1{
+	margin: 0 0 4px;
+	color: rgba(154,172,165,1);
+	font-size: 5em;
+	font-weight: 900;
+	line-height: 0.8em;
+}
+
+.wrapper #featured h2{
+	color: rgba(114,132,125,1);
+	font-size: 1.8em;
+	font-weight: 900;
+}
+
+.wrapper hr {
+  display: block;
+  height: 0.5px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+#featured img{
+	border: solid #AAA 4px
+}
+
+#press img{
+	border: solid #DDD 4px
+}
+
+#press{
+	margin-bottom: 40px;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height:0;
+}
+
+footer{
+	text-alight: right;
+}
